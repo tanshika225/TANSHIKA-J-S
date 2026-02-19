@@ -107,7 +107,7 @@ const Hero: React.FC = () => {
             <a href="https://linkedin.com/in/tanshika-j-s-241a85296/" target="_blank" className="text-slate-400 hover:text-lavender-600 transition-colors flex items-center gap-2 font-bold text-sm">
               <span className="text-xl">🔗</span> LinkedIn
             </a>
-            <a href="#" className="text-slate-400 hover:text-lavender-600 transition-colors flex items-center gap-2 font-bold text-sm">
+            <a href="https://github.com/tanshika225" className="text-slate-400 hover:text-lavender-600 transition-colors flex items-center gap-2 font-bold text-sm">
               <span className="text-xl">🐙</span> GitHub
             </a>
           </div>
@@ -115,9 +115,9 @@ const Hero: React.FC = () => {
 
         <div className="relative flex justify-center lg:justify-end">
           <div className="relative z-10">
-            <div className="w-64 h-64 md:w-[340px] md:h-[340px] rounded-full overflow-hidden border-8 border-white shadow-2xl relative">
+            <div className="w-64 h-75 md:w-[440px] md:h-[540px] rounded-full overflow-hidden border-8 border-white shadow-2xl relative">
               <img 
-                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=600&h=600" 
+                src="Gemini_Generated_Image_3vos303vos303vos.png" 
                 alt="Tanshika Profile" 
                 className="w-full h-full object-cover"
               />

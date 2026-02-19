@@ -92,7 +92,7 @@ const Contact: React.FC = () => {
                 <p className="text-[10px] font-bold uppercase tracking-widest text-slate-400 mb-2">Socials</p>
                 <div className="flex gap-4">
                   <a href="https://linkedin.com/in/tanshika-j-s-241a85296/" target="_blank" className="text-brand-dark hover:text-lavender-600 transition-colors font-bold">LinkedIn</a>
-                  <a href="#" className="text-brand-dark hover:text-lavender-600 transition-colors font-bold">GitHub</a>
+                  <a href="https://github.com/tanshika225" className="text-brand-dark hover:text-lavender-600 transition-colors font-bold">GitHub</a>
                 </div>
               </div>
             </div>
