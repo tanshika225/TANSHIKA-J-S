@@ -3,19 +3,15 @@ import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar.tsx';
 import Hero from './components/Hero.tsx';
 import About from './components/About.tsx';
-import Skills from './components/Skills.tsx';
-import ExperienceTimeline from './components/Experience.tsx';
 import ProjectShowcase from './components/Projects.tsx';
-import Services from './components/Services.tsx';
 import Contact from './components/Contact.tsx';
-import Footer from './components/Footer.tsx';
 
 const App: React.FC = () => {
   const [activeSection, setActiveSection] = useState('home');
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'about', 'skills', 'experience', 'projects', 'services', 'contact'];
+      const sections = ['home', 'about', 'projects', 'contact'];
       const scrollPosition = window.scrollY + 120; // Adjusted offset for better accuracy
 
       for (const section of sections) {
@@ -41,13 +37,9 @@ const App: React.FC = () => {
       <main>
         <Hero />
         <About />
-        <Skills />
-        <ExperienceTimeline />
         <ProjectShowcase />
-        <Services />
         <Contact />
       </main>
-      <Footer />
     </div>
   );
 };
