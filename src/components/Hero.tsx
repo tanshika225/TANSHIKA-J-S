@@ -117,7 +117,7 @@ const Hero: React.FC = () => {
           <div className="relative z-10">
             <div className="w-64 h-75 md:w-[440px] md:h-[540px] rounded-full overflow-hidden border-8 border-white shadow-2xl relative">
               <img 
-                src="Gemini_Generated_Image_3vos303vos303vos.png" 
+                src="./assets/Gemini_Generated_Image_3vos303vos303vos.png" 
                 alt="Tanshika Profile" 
                 className="w-full h-full object-cover"
               />
