@@ -10,7 +10,7 @@ import Services from './components/Services';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
-const App: React.FC = () => {
+const App: React.FC = () => { 
   const [activeSection, setActiveSection] = useState('home');
 
   useEffect(() => {
