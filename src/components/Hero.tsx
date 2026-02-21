@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-
+import profileImage from "../assets/profile.png";
 const Hero: React.FC = () => {
   const [typedText, setTypedText] = useState('');
   const [roleIndex, setRoleIndex] = useState(0);
@@ -115,9 +115,9 @@ const Hero: React.FC = () => {
 
         <div className="relative flex justify-center lg:justify-end">
           <div className="relative z-10">
-            <div className="w-64 h-75 md:w-[440px] md:h-[540px] rounded-full overflow-hidden border-8 border-white shadow-2xl relative">
+            <div className="w-64 h-80 md:w-[440px] md:h-[540px] rounded-full overflow-hidden border-8 border-white shadow-2xl relative">
               <img 
-                src="./assets/Gemini_Generated_Image_3vos303vos303vos.png" 
+                src={profileImage}
                 alt="Tanshika Profile" 
                 className="w-full h-full object-cover"
               />
